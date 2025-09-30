@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ```
 Run the Jupyter Notebook:
 ```bash
-jupyter notebook Aswin_Pradeep_2024Dec_Batch.ipynb
+jupyter notebook machine_failure_prediction.ipynb
 ```
 
 ## Result
