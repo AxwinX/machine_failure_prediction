@@ -1,5 +1,10 @@
 # Machine Failure Prediction System
 
+![Accuracy](https://img.shields.io/badge/Accuracy-93%25-brightgreen)
+![Precision](https://img.shields.io/badge/Precision-High-blue)
+![Recall](https://img.shields.io/badge/Recall-Effective-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Overview
 This project is a Machine Failure Prediction System that uses machine learning to predict whether a machine will fail based on sensor data. The model analyzes operational parameters such as temperature, pressure, and rotational speed to classify machines into **Failure** or **No Failure** states.
 
@@ -30,7 +35,24 @@ Models tested include:
 ## Installation and Usage
 Clone this repository:
 ```bash
-git clone https://github.com/yourusername/machine-failure-prediction.git
+git clone https://github.com/AxwinX/machine-failure-prediction.git
 cd machine-failure-prediction
-
+```
 Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Run the Jupyter Notebook:
+```bash
+jupyter notebook Aswin_Pradeep_2024Dec_Batch.ipynb
+```
+
+## Result
+The model achieves strong performance on the test dataset. Key evaluation metrics include:
+- Accuracy: ~93%
+- Precision: High precision in predicting machine failures
+- Recall: Effectively detects failure cases while minimizing false negatives
+- F1-score: Balanced performance across both classes
+
+## License
+This project is open-source and available under the MIT License.
