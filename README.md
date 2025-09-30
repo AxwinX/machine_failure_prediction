@@ -11,7 +11,7 @@ This project is a Machine Failure Prediction System that uses machine learning t
 ## Dataset
 The dataset used in this project contains machine operational data and failure labels.  
 
-- **Dataset Download**: [data.csv](./data.csv) 
+- **Dataset Download**: [data.csv](https://raw.githubusercontent.com/AxwinX/machine_failure_prediction/refs/heads/main/data.csv) 
 
 ## Features Used
 The model utilizes the following features from the dataset:
